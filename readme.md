@@ -66,7 +66,7 @@ param = json.loads(ctx.call("login",json.dumps(response_dict)))
 ## 使用方法 <span id="jump"></span>
 ### 将项目拉取到本地
 直接将代码下载到本地  
-`main.py`: 进行网络请求  
+`main.py`: 进行网络请求，注意输入账号密码登录  
 `main_login.js`: 负责参数的加密  
 `requirements.txt`: 依赖项
 ### 配置所用库（requirements.txt）
